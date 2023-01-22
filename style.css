@@ -65,6 +65,7 @@ h1{
 }
 
 .btn_res{
+    font-size: large;
     width: 90%;
     height: 30px;
     border-radius: 50px;
@@ -169,7 +170,7 @@ h1{
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (min-width: 319px) and (max-width: 375px){
     .card {
         width: 277px;
         height: 330px;
