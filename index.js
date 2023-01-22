@@ -112,7 +112,7 @@ res.addEventListener("click", () => {
     if(Number(choise) === Number(ans)){
         document.getElementById("correct").innerHTML = "Correct answer!"
     }    
-    else document.getElementById("correct").innerHTML = "Inorrect answer, try again!";
+    else document.getElementById("correct").innerHTML = "Incorrect answer, try again!";
 });
 
 
