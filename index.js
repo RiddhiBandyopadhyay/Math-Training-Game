@@ -56,7 +56,9 @@ function calculate(num1, num2, sign){
         return num1 - num2;
     else if(sign == "x")
         return num1 * num2;
-    else return num1 / num2; 
+    else{
+        return num2 !== 0 ? num1 / num2 : num1 / (num2 + Math.floor(Math.random() * 10 + 1));
+    }  
 }
 
 function isFloat(n){
